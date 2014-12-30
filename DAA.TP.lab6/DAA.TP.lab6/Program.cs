@@ -51,16 +51,16 @@
                 double func = Math.Sqrt(Math.Pow(x, 2) - 16);
                 if (double.IsInfinity(func))
                 {
-                    Console.WriteLine("Результат расчёта второй системы для x >= 0 - бесконечно малая функция");
+                    Console.WriteLine("Результат расчёта второй системы для x >= 4 - бесконечно малая функция");
                 }
                 else
                 {
-                    Console.WriteLine("Результат расчёта второй системы для x >= 0: {0}", func);
+                    Console.WriteLine("Результат расчёта второй системы для x >= 4: {0}", func);
                 }
             }
             else
             {
-                Console.WriteLine("Результат расчёта второй системы для x < 0: {0}", Math.Sin(7 * x + 2));
+                Console.WriteLine("Результат расчёта второй системы для x < 4: {0}", Math.Sin(7 * x + 2));
             }
         }
 
